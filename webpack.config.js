@@ -23,8 +23,8 @@ module.exports = function makeWebpackConfig(options) {
 
     config.output = {
         path: root('./'),
-        filename: options.env === 'prod' ? 'dist/[name].[hash].js' : 'dist/[name].js',
-        chunkFilename: options.env === 'prod' ? 'dist/chunk/[id].[hash].chunk.js' : 'dist/chunk/[id].chunk.js'
+        filename: 'dist/[name].js',
+        chunkFilename: 'dist/chunk/[id].chunk.js'
     };
 
     config.module = {
@@ -93,7 +93,7 @@ module.exports = function makeWebpackConfig(options) {
         // Extract css files
         // Reference: https://github.com/webpack/extract-text-webpack-plugin
         new ExtractTextPlugin({
-            filename: 'dist/style.[hash].css',
+            filename: 'dist/style.css',
         }),
 
         new webpack.LoaderOptionsPlugin({

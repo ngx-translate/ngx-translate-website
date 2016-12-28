@@ -4,7 +4,7 @@
   "private": true,
   "main": "build/modules/main.module.js",
   "scripts": {
-    "explorer": "source-map-explorer ./dist/main.*.js ./dist/main.*.js.map",
+    "explorer": "source-map-explorer ./dist/main.js ./dist/main.js.map",
     "ngc": "ngc",
     "serve": "http-server ./ -a 0.0.0.0 -p 9000",
     "start": "webpack-dev-server --env.env dev",
