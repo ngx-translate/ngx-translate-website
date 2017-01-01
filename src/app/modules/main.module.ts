@@ -1,14 +1,18 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from '../components/app.component';
-import '../../style.scss';
+import '../../styles/app.scss';
+
+const COMPONENTS = [
+    AppComponent
+];
 
 export {AppComponent};
 
 @NgModule({
-    bootstrap: [AppComponent],
-    declarations: [AppComponent],
     imports: [BrowserModule],
+    bootstrap: [...COMPONENTS],
+    declarations: [...COMPONENTS],
     providers: []
 })
 export class MainModule {

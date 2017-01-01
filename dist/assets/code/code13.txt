@@ -1,0 +1,1 @@
+&lt;div translate [translateParams]="{value: 'world'}"&gt;HELLO&lt;/div&gt;

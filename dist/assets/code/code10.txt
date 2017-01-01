@@ -1,0 +1,1 @@
+&lt;div&gt;{{ 'HELLO' | translate:param }}&lt;/div&gt;

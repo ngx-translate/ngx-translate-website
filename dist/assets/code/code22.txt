@@ -1,0 +1,11 @@
+@NgModule({
+    imports: [
+        BrowserModule,
+        TranslateModule.forRoot()
+    ],
+    providers: [
+        { provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler }
+    ],
+    bootstrap: [AppComponent]
+})
+export class AppModule { }

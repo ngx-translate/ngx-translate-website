@@ -1,3 +1,17 @@
+@import "../../styles/settings";
+@import "../../styles/skeleton/grid";
+
 :host {
+    display: block;
+    height: 100%;
+}
+
+.container {
+    padding: 1.5em;
+    margin: 1.5em auto;
+    box-shadow: 2px 2px 2px black;
+    background: $content-bg;
+    border-radius: $border-radius;
     text-align: center;
+    font-size: 20px;
 }

@@ -1,0 +1,1 @@
+&lt;div [innerHTML]="'HELLO' | translate"&gt;&lt;/div&gt;

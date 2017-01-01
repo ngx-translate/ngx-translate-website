@@ -22,9 +22,9 @@ module.exports = function makeWebpackConfig(options) {
     };
 
     config.output = {
-        path: root('./'),
-        filename: 'dist/[name].js',
-        chunkFilename: 'dist/chunk/[id].chunk.js'
+        path: root('./dist'),
+        filename: '[name].js',
+        chunkFilename: 'chunk/[id].chunk.js'
     };
 
     config.module = {
@@ -68,14 +68,13 @@ module.exports = function makeWebpackConfig(options) {
         // Reference: https://github.com/kevlened/copy-webpack-plugin
         // Copy assets from the public folder
         new CopyWebpackPlugin([
-            {from: 'src/index.html'},
-            {from: 'src/favicon.ico', to: "dist/"}
+            {from: 'src/public'}
         ]),
 
         // Inject script and link tags into html files
         // Reference: https://github.com/ampedandwired/html-webpack-plugin
         new HtmlWebpackPlugin({
-            template: './src/index.html',
+            template: './src/public/index.html',
             chunksSortMode: function(chunk1, chunk2) {
                 let orders = ['polyfill', 'main'],
                     order1 = orders.indexOf(chunk1.names[0]),
@@ -93,7 +92,7 @@ module.exports = function makeWebpackConfig(options) {
         // Extract css files
         // Reference: https://github.com/webpack/extract-text-webpack-plugin
         new ExtractTextPlugin({
-            filename: 'dist/style.css',
+            filename: 'app.css',
         }),
 
         new webpack.LoaderOptionsPlugin({

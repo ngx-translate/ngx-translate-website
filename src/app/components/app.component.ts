@@ -4,7 +4,10 @@ import {Component} from '@angular/core';
     selector: 'app',
     styleUrls: ['./app.component.scss'],
     template: `
-        <h1>Coming soon...</h1>
+        <div class="container">
+            <img src="/assets/img/logo.png">
+            <h3>Coming soon...</h3>
+        </div>
     `
 })
 export class AppComponent {

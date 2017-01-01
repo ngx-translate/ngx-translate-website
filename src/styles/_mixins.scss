@@ -1,0 +1,14 @@
+/* truncates text and adds an ellipsis to represent overflow. */
+@mixin ellipsis($width: 100%) {
+    //display: inline-block;
+    max-width: $width;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+@mixin fix-flex {
+    flex-shrink: 0;
+    flex-basis: auto;
+}
