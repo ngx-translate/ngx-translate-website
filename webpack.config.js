@@ -5,7 +5,8 @@ const path = require('path'),
     ExtractTextPlugin = require('extract-text-webpack-plugin'),
     StyleLintPlugin = require('stylelint-webpack-plugin'),
     CleanWebpackPlugin = require('clean-webpack-plugin'),
-    ngToolsWebpack = require('@ngtools/webpack');
+    ngToolsWebpack = require('@ngtools/webpack'),
+    V8LazyParseWebpackPlugin = require('v8-lazy-parse-webpack-plugin');
 
 module.exports = function makeWebpackConfig(options) {
     let config = {};
@@ -140,7 +141,9 @@ module.exports = function makeWebpackConfig(options) {
                 comments: false,
                 sourceMap: true,
                 negate_iife: false
-            })
+            }),
+
+            new V8LazyParseWebpackPlugin()
         );
     }
 
