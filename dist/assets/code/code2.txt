@@ -1,7 +1,0 @@
-@NgModule({
-    exports: [
-        CommonModule,
-        TranslateModule
-    ]
-})
-export class SharedModule { }

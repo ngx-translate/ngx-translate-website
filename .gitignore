@@ -6,3 +6,4 @@ tmp
 *.shim.ts
 *.ngsummary.json
 .DS_Store
+dist

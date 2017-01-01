@@ -7,7 +7,7 @@
     "build": "webpack --env.env prod --progress --profile --bail && cp dist/index.html dist/200.html",
     "explorer": "source-map-explorer ./dist/main.js ./dist/main.js.map",
     "ngc": "ngc",
-    "publish": "npm run build && npm run surge",
+    "deploy": "npm run build && npm run surge",
     "serve": "http-server ./dist -a 0.0.0.0 -p 9000",
     "start": "webpack-dev-server --env.env dev",
     "surge": "surge --project ./dist --domain www.ngx-translate.com"
