@@ -1,5 +1,5 @@
 {
-  "name": "ngx-translate.github.io",
+  "name": "ngx-translate-website",
   "description": "NGX-Translate: The internationalization (i18n) library for Angular 2+",
   "private": true,
   "main": "build/modules/main.module.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngx-translate/ngx-translate.github.io.git"
+    "url": "git+https://github.com/ngx-translate/ngx-translate-website.git"
   },
   "author": {
     "name": "Olivier Combe",
