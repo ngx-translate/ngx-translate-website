@@ -40,7 +40,7 @@ import {Component} from '@angular/core';
                 <p>You can also extract the strings from your code with the <a href="http://extractor.ngx-translate.com/">extractor</a>. This makes it really easy to start and maintain your translations.</p>
                 
                 <h3>A question? An Issue?</h3>
-                <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue.</p>
+                <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue. You can also <a href="https://twitter.com/OCombe" target="_blank">contact me on twitter</a> if you prefer.</p>
             </div>
             
             <div class="footer">© NGX-Translate 2016-2017</div>
