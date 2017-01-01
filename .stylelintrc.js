@@ -3,10 +3,6 @@ module.exports = {
         "stylelint-scss"
     ],
     "rules": {
-        "at-rule-empty-line-before": ["always", { // Require or disallow an empty line before at-rules.
-            except: ["all-nested", "blockless-group", "first-nested"],
-            ignore: ["after-comment"]
-        }],
         "at-rule-name-case": "lower", // Specify lowercase or uppercase for at-rules names.
         "at-rule-name-space-after": "always-single-line", // Require a single space after at-rule names.
         "at-rule-semicolon-newline-after": "always", // Require a newline after the semicolon of at-rules.

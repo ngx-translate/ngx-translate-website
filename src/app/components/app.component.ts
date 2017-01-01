@@ -5,8 +5,45 @@ import {Component} from '@angular/core';
     styleUrls: ['./app.component.scss'],
     template: `
         <div class="container">
-            <img src="/assets/img/logo.png">
-            <h3>Coming soon...</h3>
+            <div class="header">
+                <div class="header-bg"></div>
+                <div class="header-title">
+                    <img src="/assets/img/logo.png">
+                    <div class="header-subtitle">The internationalization (i18n) library for Angular 2+</div>
+                </div>
+            </div>
+            <div class="links">
+                <a href="http://core.ngx-translate.com/">Core</a> /
+                <a href="#loaders">Loaders</a> /
+                <a href="http://extractor.ngx-translate.com/">Extractor</a> /
+                <a href="https://embed.plnkr.co/pYo6bFPRRxVPgRR8toDt/" target="_blank">Demo</a>
+            </div>
+            <div class="content">
+                <h3>What is ngx-translate?</h3>
+                <p>
+                    NGX-Translate is an internationalization library for Angular 2+. It lets you define translations for your content in different languages and switch between them easily.
+                    Check out the <a href="https://embed.plnkr.co/pYo6bFPRRxVPgRR8toDt/" target="_blank">demo</a> on Plunker.
+                </p>
+                <p>It gives you access to a service, a directive and a pipe to handle any dynamic or static content.</p>
+                <p>NGX-Translate is also extremely modular. It is written in a way that makes it really easy to replace any part with a custom implementation in case the existing one doesn't fit your needs.</p>
+                
+                <h3>How to use ngx-translate?</h3>
+                <p>The main part of the library is named <code>core</code>. You can use it on its own, but it is usually a good idea to add a loader to load your translations into your application.</p>
+                <p>Head over to the <a href="http://core.ngx-translate.com/">core documentation</a> to get started in 5 minutes and then choose one of the following loaders (or write your own):</p>
+
+                <ul id="loaders">
+                    <li><a href="http-loader.ngx-translate.com/">Http Loader</a>: load json translation files with http</li>
+                    <li><a href="https://gist.github.com/ocombe/593d21598d988bf6a8609ba5fc00b67e">Angular Universal Loader</a>: load json translation files with fs instead of http</li>
+                    <li><a href="https://github.com/biesbjerg/ng2-translate-po-loader">Po Loader</a>: load .po files with http</li>
+                </ul>
+                
+                <p>You can also extract the strings from your code with the <a href="http://extractor.ngx-translate.com/">extractor</a>. This makes it really easy to start and maintain your translations.</p>
+                
+                <h3>A question? An Issue?</h3>
+                <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue.</p>
+            </div>
+            
+            <div class="footer">© NGX-Translate 2016-2017</div>
         </div>
     `
 })
