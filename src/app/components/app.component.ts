@@ -13,10 +13,10 @@ import {Component} from '@angular/core';
                 </div>
             </div>
             <div class="links">
-                <a href="http://core.ngx-translate.com/">Core</a> /
+                <a href="https://github.com/ngx-translate/core">Core</a> /
                 <a href="#loaders">Loaders</a> /
-                <a href="http://extractor.ngx-translate.com/">Extractor</a> /
-                <a href="https://embed.plnkr.co/pYo6bFPRRxVPgRR8toDt/" target="_blank">Demo</a>
+                <a href="https://github.com/biesbjerg/ng2-translate-extract">Extractor</a> /
+                <a href="https://embed.plnkr.co/01UjWY3TKfP6pgwXKuEa/" target="_blank">Demo</a>
             </div>
             <div class="content">
                 <h3>What is ngx-translate?</h3>
@@ -32,7 +32,7 @@ import {Component} from '@angular/core';
                 <p>Head over to the <a href="http://core.ngx-translate.com/">core documentation</a> to get started in 5 minutes and then choose one of the following loaders (or write your own):</p>
 
                 <ul id="loaders">
-                    <li><a href="http://http-loader.ngx-translate.com/">Http Loader</a>: load json translation files with http</li>
+                    <li><a href="https://github.com/ngx-translate/http-loader">Http Loader</a>: load json translation files with http</li>
                     <li><a href="https://gist.github.com/ocombe/593d21598d988bf6a8609ba5fc00b67e">Angular Universal Loader</a>: load json translation files with fs instead of http</li>
                     <li><a href="https://github.com/biesbjerg/ng2-translate-po-loader">Po Loader</a>: load .po files with http</li>
                 </ul>
