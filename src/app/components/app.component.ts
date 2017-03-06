@@ -29,7 +29,7 @@ import {Component} from '@angular/core';
                 
                 <h3>How to use ngx-translate?</h3>
                 <p>The main part of the library is named <code>core</code>. You can use it on its own, but it is usually a good idea to add a loader to load your translations into your application.</p>
-                <p>Head over to the <a href="http://core.ngx-translate.com/">core documentation</a> to get started in 5 minutes and then choose one of the following loaders (or write your own):</p>
+                <p>Head over to the <a href="https://github.com/ngx-translate/core">core documentation</a> to get started in 5 minutes and then choose one of the following loaders (or write your own):</p>
 
                 <ul id="loaders">
                     <li><a href="https://github.com/ngx-translate/http-loader">Http Loader</a>: load json translation files with http</li>
