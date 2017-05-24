@@ -15,7 +15,7 @@ import {Component} from '@angular/core';
             <div class="links">
                 <a href="https://github.com/ngx-translate/core">Core</a> /
                 <a href="#loaders">Loaders</a> /
-                <a href="https://github.com/biesbjerg/ng2-translate-extract">Extractor</a> /
+                <a href="https://github.com/biesbjerg/ngx-translate-extract">Extractor</a> /
                 <a href="https://embed.plnkr.co/01UjWY3TKfP6pgwXKuEa/" target="_blank">Demo</a>
             </div>
             <div class="content">
@@ -37,7 +37,7 @@ import {Component} from '@angular/core';
                     <li><a href="https://github.com/biesbjerg/ng2-translate-po-loader">Po Loader</a>: load .po files with http</li>
                 </ul>
                 
-                <p>You can also extract the strings from your code with the <a href="http://extractor.ngx-translate.com/">extractor</a>. This makes it really easy to start and maintain your translations.</p>
+                <p>You can also extract the strings from your code with the <a href="https://github.com/biesbjerg/ngx-translate-extract">extractor</a>. This makes it really easy to start and maintain your translations.</p>
                 
                 <h3>A question? An Issue?</h3>
                 <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue. You can also <a href="https://twitter.com/OCombe" target="_blank">contact me on twitter</a> if you prefer.</p>
