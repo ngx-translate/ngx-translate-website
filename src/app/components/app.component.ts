@@ -16,7 +16,7 @@ import {Component} from '@angular/core';
                 <a href="https://github.com/ngx-translate/core">Core</a> /
                 <a href="#loaders">Loaders</a> /
                 <a href="https://github.com/biesbjerg/ngx-translate-extract">Extractor</a> /
-                <a href="https://embed.plnkr.co/01UjWY3TKfP6pgwXKuEa/" target="_blank">Demo</a>
+                <a href="https://embed.plnkr.co/WccVZSBM0rUgq2sXSUbe/" target="_blank">Demo</a>
             </div>
             <div class="content">
                 <h3>What is ngx-translate?</h3>
@@ -43,7 +43,7 @@ import {Component} from '@angular/core';
                 <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue. You can also <a href="https://twitter.com/OCombe" target="_blank">contact me on twitter</a> if you prefer.</p>
             </div>
             
-            <div class="footer">© NGX-Translate 2016-2017</div>
+            <div class="footer">&copy; NGX-Translate 2016-2017</div>
         </div>
     `
 })
