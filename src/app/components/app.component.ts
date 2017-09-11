@@ -16,7 +16,7 @@ import {Component} from '@angular/core';
                 <a href="https://github.com/ngx-translate/core">Core</a> /
                 <a href="#loaders">Loaders</a> /
                 <a href="https://github.com/biesbjerg/ngx-translate-extract">Extractor</a> /
-                <a href="https://embed.plnkr.co/WccVZSBM0rUgq2sXSUbe/" target="_blank">Demo</a>
+                <a href="https://plnkr.co/edit/WccVZSBM0rUgq2sXSUbe?p=preview" target="_blank">Demo</a>
             </div>
             <div class="content">
                 <h3>What is ngx-translate?</h3>
