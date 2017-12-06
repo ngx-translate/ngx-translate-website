@@ -9,7 +9,7 @@ import {Component} from '@angular/core';
                 <div class="header-bg"></div>
                 <div class="header-title">
                     <img src="/assets/img/logo.png">
-                    <div class="header-subtitle">The internationalization (i18n) library for Angular 2+</div>
+                    <div class="header-subtitle">The internationalization (i18n) library for Angular</div>
                 </div>
             </div>
             <div class="links">
@@ -21,7 +21,7 @@ import {Component} from '@angular/core';
             <div class="content">
                 <h3>What is ngx-translate?</h3>
                 <p>
-                    NGX-Translate is an internationalization library for Angular 2+. It lets you define translations for your content in different languages and switch between them easily.
+                    NGX-Translate is an internationalization library for Angular. It lets you define translations for your content in different languages and switch between them easily.
                     Check out the <a href="https://embed.plnkr.co/pYo6bFPRRxVPgRR8toDt/" target="_blank">demo</a> on Plunker.
                 </p>
                 <p>It gives you access to a service, a directive and a pipe to handle any dynamic or static content.</p>
