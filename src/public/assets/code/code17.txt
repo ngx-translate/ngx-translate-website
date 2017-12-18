@@ -1,3 +1,0 @@
-onTranslationChange.subscribe((event: TranslationChangeEvent) =&gt; {
-  // do something
-});

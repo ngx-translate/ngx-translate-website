@@ -1,3 +1,0 @@
-onDefaultLangChange.subscribe((event: DefaultLangChangeEvent) =&gt; {
-  // do something
-});
