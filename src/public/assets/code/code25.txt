@@ -1,1 +1,0 @@
-parser.getValue({ key1: { keyA: 'valueI' }}, 'key1.keyA') ==&gt; 'valueI'

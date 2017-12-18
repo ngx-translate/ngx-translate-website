@@ -1,4 +1,0 @@
-translate.get('HELLO', {value: 'world'}).subscribe((res: string) =&gt; {
-    console.log(res);
-    //=&gt; 'hello world'
-});
