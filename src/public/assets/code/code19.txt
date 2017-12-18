@@ -1,5 +1,0 @@
-class CustomLoader implements TranslateLoader {
-    getTranslation(lang: string): Observable&lt;any&gt; {
-        return Observable.of({KEY: 'value'});
-    }
-}
