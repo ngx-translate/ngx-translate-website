@@ -16,6 +16,7 @@ import {Component} from '@angular/core';
                 <a href="https://github.com/ngx-translate/core">Core</a> /
                 <a href="#loaders">Loaders</a> /
                 <a href="https://github.com/biesbjerg/ngx-translate-extract">Extractor</a> /
+                <a href="https://www.codeandweb.com/babeledit">BabelEdit</a> /
                 <a href="https://plnkr.co/edit/WccVZSBM0rUgq2sXSUbe?p=preview" target="_blank">Demo</a>
             </div>
             <div class="content">
@@ -38,6 +39,10 @@ import {Component} from '@angular/core';
                 </ul>
                 
                 <p>You can also extract the strings from your code with the <a href="https://github.com/biesbjerg/ngx-translate-extract">extractor</a>. This makes it really easy to start and maintain your translations.</p>
+                
+                <p>This  <a href="https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular-app-with-ngx-translate">tutorial</a>
+                    explains how to use ngx-translate, ngx-translate-extract and BabelEdit to translate your Angular app.
+                </p>
                 
                 <h3>A question? An Issue?</h3>
                 <p>Head over to the <a href="https://github.com/ngx-translate/core/issues">core repository</a> to ask a question or post an issue. You can also <a href="https://twitter.com/OCombe" target="_blank">contact me on twitter</a> if you prefer.</p>
