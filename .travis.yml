@@ -5,7 +5,7 @@ cache: yarn
 sudo: false
 
 node_js:
-  - '7'
+  - '10'
 
 after_success:
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run deploy; fi'
